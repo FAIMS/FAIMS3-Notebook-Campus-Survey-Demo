@@ -5,7 +5,7 @@
 		"label": "AutoIncrementer"
 	}],
 	"_id": "local-autoincrementers",
-	"_rev": "3-6a9b55bc204a9f3c0ef65a75be5016e9"
+	"_rev": "2-f1fae4289c7abc590f461229e506f79a"
 }, {
 	"is_attachment": false,
 	"metadata": {
@@ -13,12 +13,12 @@
 		"accessFORM2": ["admin"]
 	},
 	"_id": "project-metadata-access",
-	"_rev": "3-fcac45e63e5572f6595af5b406ce805d"
+	"_rev": "2-6e7bb7a5dc13dc86727df0f075e10cf6"
 }, {
 	"is_attachment": false,
 	"metadata": ["admin", "moderator", "team"],
 	"_id": "project-metadata-accesses",
-	"_rev": "3-7f1d3c80499ccbf017d4a888ca6ff4c2"
+	"_rev": "2-fb717da8ae39cd1c1f2134a70181fc7b"
 }, {
 	"is_attachment": true,
 	"metadata": null,
@@ -35,12 +35,12 @@
 	"is_attachment": false,
 	"metadata": {},
 	"_id": "project-metadata-behavious",
-	"_rev": "3-deeadb776e390788d5996b19ea0f7852"
+	"_rev": "2-1434567f4374ea530831804945fb67df"
 }, {
 	"is_attachment": false,
 	"metadata": "Attachment.pdf",
 	"_id": "project-metadata-filenames",
-	"_rev": "3-ea8b573a2e3c24ca1d6fb1fc41cbe85e"
+	"_rev": "2-a70afbbb99989aa20525a7e220d9de79"
 }, {
 	"is_attachment": false,
 	"metadata": {
@@ -60,22 +60,22 @@
 		}
 	},
 	"_id": "project-metadata-forms",
-	"_rev": "3-fbe0b367b1258a98437673e66d48fb91"
+	"_rev": "2-c284b82785b56cb21fb6a58aedfadd13"
 }, {
 	"is_attachment": false,
 	"metadata": false,
 	"_id": "project-metadata-ispublic",
-	"_rev": "3-731e5dfa5916b3b8d29ee3ae8a92d39f"
+	"_rev": "2-6cf3ccfeecccddc26edca3925b3f3fb3"
 }, {
 	"is_attachment": false,
 	"metadata": false,
 	"_id": "project-metadata-isrequest",
-	"_rev": "3-9c0161cd3a871cabe462d91c8a4ce8df"
+	"_rev": "2-38c9a326e94a7303fde2705e4ff07204"
 }, {
 	"is_attachment": false,
 	"metadata": "Macquarie University",
 	"_id": "project-metadata-lead_institution",
-	"_rev": "3-67b43f5a3ca44df14405e02a20d11807"
+	"_rev": "2-af32cb82b4a493d5a76e6bdf291b328a"
 }, {
 	"is_attachment": false,
 	"metadata": {
@@ -83,22 +83,22 @@
 		"Group": "A"
 	},
 	"_id": "project-metadata-meta",
-	"_rev": "3-e294099e7f5e507b4729679741a0937a"
+	"_rev": "2-251e93c54abb9ba8f09e13ccb842996c"
 }, {
 	"is_attachment": false,
 	"metadata": "This is a demonstration module create for FAIMS3 focus groups held in April and May 2022.",
 	"_id": "project-metadata-pre_description",
-	"_rev": "3-79614eab75a8a562d0bd856e8815833b"
+	"_rev": "2-beb843352c67a519fb3838a8491e1b49"
 }, {
 	"is_attachment": false,
 	"metadata": "Penny Crook",
 	"_id": "project-metadata-project_lead",
-	"_rev": "3-2e5bc39159e63914effbcf0fa6adc266"
+	"_rev": "2-a9739e8f68902237616575e3d05c4260"
 }, {
 	"is_attachment": false,
 	"metadata": "",
 	"_id": "project-metadata-project_status",
-	"_rev": "3-267c6d50ae12a5806be12738cfc80da9"
+	"_rev": "2-f265e5f6c58001cefd506978fc55a332"
 }, {
 	"is_attachment": false,
 	"metadata": {
@@ -142,7 +142,7 @@
 		"filenames": "Attachment.pdf"
 	},
 	"_id": "project-metadata-projectvalue",
-	"_rev": "3-9e93264779f99d94a721fa3a080f2d0b"
+	"_rev": "2-56ea324d311aacbf530734767e5d5c37"
 }, {
 	"is_attachment": false,
 	"metadata": {
@@ -151,7 +151,7 @@
 		}
 	},
 	"_id": "project-metadata-sections",
-	"_rev": "3-adc563047656abd48520b765c52267af"
+	"_rev": "2-fd6c025a5085f8a67fbf9f62c741d230"
 }, {
 	"fields": {
 		"newfield5363dcf4": {
@@ -187,7 +187,7 @@
 			"type-returned": "faims-core::String",
 			"component-parameters": {
 				"fullWidth": true,
-				"helperText": "Select your the campus area from the list",
+				"helperText": "Select your campus area from the list",
 				"variant": "outlined",
 				"required": false,
 				"select": true,
@@ -198,11 +198,11 @@
 						"value": "Zone A",
 						"label": "Zone A"
 					}, {
-						"value": " Zone B",
-						"label": " Zone B"
+						"value": "Zone B",
+						"label": "Zone B"
 					}, {
-						"value": " Zone C",
-						"label": " Zone C"
+						"value": "Zone C",
+						"label": "Zone C"
 					}]
 				},
 				"InputLabelProps": {
@@ -299,7 +299,7 @@
 				"helperText": "This is unique ID for each landscape element",
 				"variant": "outlined",
 				"required": true,
-				"template": "αβγ {{fieldselect10newfieldc18d25ed}}-{{newfieldb284a817}}-{{newfielde48d0b3e}}",
+				"template": "A-{{newfieldb284a817}}-{{newfielde48d0b3e}}",
 				"InputProps": {
 					"type": "text",
 					"readOnly": true
@@ -339,7 +339,7 @@
 				"helperText": "This is unique ID for each landscape element",
 				"variant": "outlined",
 				"required": true,
-				"template": "αβγ {{fieldselect10newfieldc18d25ed}}-{{newfieldb284a817}}-{{newfielde48d0b3e}}",
+				"template": "Landscape: {{fieldselect10newfieldc18d25ed}} {{newfieldb284a817}}-{{newfielde48d0b3e}}",
 				"InputProps": {
 					"type": "text",
 					"readOnly": true
@@ -688,7 +688,7 @@
 				"helperText": "This is a unique-ish ID for each Survey Area",
 				"variant": "outlined",
 				"required": true,
-				"template": "Survey Area-{{newfield800c3f33}}",
+				"template": "{{newfield800c3f33}}-{{newfieldefa5e828}}",
 				"InputProps": {
 					"type": "text",
 					"readOnly": true
@@ -697,9 +697,9 @@
 					"label": "Survey Area ID"
 				},
 				"hrid": true,
-				"numberfield": 1,
+				"numberfield": 2,
 				"fieldselect10": "newfield800c3f33",
-				"fieldselect11": ""
+				"fieldselect11": "newfieldefa5e828"
 			},
 			"validationSchema": [
 				["yup.string"],
@@ -727,7 +727,7 @@
 				"helperText": "This is a unique-ish ID for each Survey Area",
 				"variant": "outlined",
 				"required": true,
-				"template": "Survey Area {{fieldselect10newfield757083da}}",
+				"template": "Survey Area: {{newfield800c3f33}} {{newfieldefa5e828}}",
 				"InputProps": {
 					"type": "text",
 					"readOnly": true
@@ -736,9 +736,9 @@
 					"label": "Survey Area ID"
 				},
 				"hrid": false,
-				"numberfield": 1,
+				"numberfield": 2,
 				"fieldselect10": "newfield800c3f33",
-				"fieldselect11": "",
+				"fieldselect11": "newfieldefa5e828",
 				"linked": "newfield757083da"
 			},
 			"validationSchema": [
@@ -764,7 +764,7 @@
 				"fullWidth": true,
 				"helperText": "Add elements you find",
 				"variant": "outlined",
-				"required": true,
+				"required": false,
 				"related_type": "FORM2",
 				"relation_type": "faims-core::Child",
 				"InputProps": {
@@ -780,10 +780,43 @@
 				"name": "newfield59aeae56"
 			},
 			"validationSchema": [
-				["yup.string"],
-				["yup.required"]
+				["yup.string"]
 			],
 			"initialValue": [],
+			"access": ["admin"],
+			"meta": {
+				"annotation_label": "annotation",
+				"annotation": true,
+				"uncertainty": {
+					"include": false,
+					"label": "uncertainty"
+				}
+			}
+		},
+		"newfieldefa5e828": {
+			"component-namespace": "formik-material-ui",
+			"component-name": "TextField",
+			"type-returned": "faims-core::String",
+			"component-parameters": {
+				"fullWidth": true,
+				"helperText": "Please name your survey area",
+				"variant": "outlined",
+				"required": false,
+				"InputProps": {
+					"type": "text"
+				},
+				"SelectProps": {},
+				"InputLabelProps": {
+					"label": "Survey Area Nickname"
+				},
+				"FormHelperTextProps": {},
+				"id": "newfieldefa5e828",
+				"name": "newfieldefa5e828"
+			},
+			"validationSchema": [
+				["yup.string"]
+			],
+			"initialValue": "",
 			"access": ["admin"],
 			"meta": {
 				"annotation_label": "annotation",
@@ -797,7 +830,7 @@
 	},
 	"fviews": {
 		"FORM1SECTION1": {
-			"fields": ["hridFORM1", "newfield800c3f33", "newfield5363dcf4", "newfieldde848d82", "newfield8b0ba1cc", "newfield59aeae56"],
+			"fields": ["hridFORM1", "newfield800c3f33", "newfieldefa5e828", "newfield5363dcf4", "newfieldde848d82", "newfield8b0ba1cc", "newfield59aeae56"],
 			"uidesign": "form",
 			"label": "Survey Details"
 		},
@@ -819,5 +852,5 @@
 	},
 	"visible_types": ["FORM1", "FORM2"],
 	"_id": "ui-specification",
-	"_rev": "3-49b92cacee43556220d909af70a0502d"
+	"_rev": "2-564f433edf6e8056aa807ee6681815bf"
 }]
