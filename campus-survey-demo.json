@@ -238,20 +238,25 @@
                         "options": [
                             {
                                 "value": "Zone Alpha",
-                                "label": "Zone Alpha"
+                                "label": "Zone Alpha "
                             },
                             {
                                 "value": "Zone Beta",
-                                "label": "Zone Beta"
+                                "label": "Zone Beta "
                             },
                             {
                                 "value": "Zone Charlie",
-                                "label": "Zone Charlie"
+                                "label": "Zone Charlie "
                             },
                             {
                                 "value": "Zone Delta",
-                                "label": "Zone Delta"
+                                "label": "Zone Delta "
+                            },
+                         	{
+                                "value": "Zone Other",
+                                "label": "Zone Other "
                             }
+                               
                         ]
                     },
                     "InputLabelProps": {
@@ -270,8 +275,8 @@
                     "admin"
                 ],
                 "meta": {
-                    "annotation_label": "annotation",
-                    "annotation": false,
+                    "annotation_label": "Other area",
+                    "annotation": true,
                     "uncertainty": {
                         "include": false,
                         "label": "uncertainty"
@@ -443,8 +448,7 @@
                     "required": false,
                     "select": true,
                     "InputProps": {},
-                    "SelectProps": {
-                    	"multiple": true
+                    "SelectProps": {                    	
                     },
                     "ElementProps": {
                         "options": [
