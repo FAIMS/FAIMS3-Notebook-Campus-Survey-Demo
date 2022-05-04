@@ -237,24 +237,24 @@
                     "ElementProps": {
                         "options": [
                             {
-                                "value": "Zone Alpha;&nbsp;",
-                                "label": "Zone Alpha;&nbsp;"
+                                "value": "Zone Alpha; ",
+                                "label": "Zone Alpha; "
                             },
                             {
-                                "value": "Zone Beta;&nbsp;",
-                                "label": "Zone Beta;&nbsp;"
+                                "value": "Zone Beta; ",
+                                "label": "Zone Beta; "
                             },
                             {
-                                "value": "Zone Charlie;&nbsp;",
-                                "label": "Zone Charlie;&nbsp;"
+                                "value": "Zone Charlie; ",
+                                "label": "Zone Charlie; "
                             },
                             {
-                                "value": "Zone Delta;&nbsp;",
-                                "label": "Zone Delta;&nbsp;"
+                                "value": "Zone Delta; ",
+                                "label": "Zone Delta; "
                             },
                          	{
-                                "value": "Zone Other;&nbsp;",
-                                "label": "Zone Other;&nbsp;"
+                                "value": "Zone Other; ",
+                                "label": "Zone Other; "
                             }
                                
                         ]
