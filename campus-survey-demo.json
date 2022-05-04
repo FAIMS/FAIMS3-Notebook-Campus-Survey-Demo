@@ -237,20 +237,20 @@
                     "ElementProps": {
                         "options": [
                             {
-                                "value": "Zone A",
-                                "label": "Zone A"
+                                "value": "Zone Alpha",
+                                "label": "Zone Alpha"
                             },
                             {
-                                "value": "Zone B",
-                                "label": "Zone B"
+                                "value": "Zone Beta",
+                                "label": "Zone Beta"
                             },
                             {
-                                "value": "Zone C",
-                                "label": "Zone C"
+                                "value": "Zone Charlie",
+                                "label": "Zone Charlie"
                             },
                             {
-                                "value": "Zone D",
-                                "label": "Zone D"
+                                "value": "Zone Delta",
+                                "label": "Zone Delta"
                             }
                         ]
                     },
@@ -443,7 +443,9 @@
                     "required": false,
                     "select": true,
                     "InputProps": {},
-                    "SelectProps": {},
+                    "SelectProps": {
+                    	"multiple": true
+                    },
                     "ElementProps": {
                         "options": [
                             {
@@ -451,8 +453,8 @@
                                 "label": "Bench seat"
                             },
                             {
-                                "value": "Movable Chair/Seat",
-                                "label": "Movable Chair/Seat"
+                                "value": "Movable Chair",
+                                "label": "Movable Chair"
                             },
                             {
                                 "value": "Garden bed",
@@ -479,8 +481,8 @@
                                 "label": "Street lamp"
                             },
                             {
-                                "value": "Table and Chairs",
-                                "label": "Table and Chairs"
+                                "value": "Table",
+                                "label": "Table"
                             },
                             {
                                 "value": "Tree",
