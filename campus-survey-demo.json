@@ -228,7 +228,7 @@
                 "type-returned": "faims-core::String",
                 "component-parameters": {
                     "fullWidth": true,
-                    "helperText": "Select your campus area from the list",
+                    "helperText": "Select your campus area from the list. (For other, use annotation icon)",
                     "variant": "outlined",
                     "required": false,
                     "select": true,
@@ -237,24 +237,24 @@
                     "ElementProps": {
                         "options": [
                             {
-                                "value": "Zone Alpha",
-                                "label": "Zone Alpha "
+                                "value": "Zone Alpha;&nbsp;",
+                                "label": "Zone Alpha;&nbsp;"
                             },
                             {
-                                "value": "Zone Beta",
-                                "label": "Zone Beta "
+                                "value": "Zone Beta;&nbsp;",
+                                "label": "Zone Beta;&nbsp;"
                             },
                             {
-                                "value": "Zone Charlie",
-                                "label": "Zone Charlie "
+                                "value": "Zone Charlie;&nbsp;",
+                                "label": "Zone Charlie;&nbsp;"
                             },
                             {
-                                "value": "Zone Delta",
-                                "label": "Zone Delta "
+                                "value": "Zone Delta;&nbsp;",
+                                "label": "Zone Delta;&nbsp;"
                             },
                          	{
-                                "value": "Zone Other",
-                                "label": "Zone Other "
+                                "value": "Zone Other;&nbsp;",
+                                "label": "Zone Other;&nbsp;"
                             }
                                
                         ]
@@ -289,7 +289,7 @@
                 "type-returned": "faims-core::String",
                 "component-parameters": {
                     "fullWidth": true,
-                    "helperText": "Helper Text",
+                    "helperText": "Note comments about survey area here",
                     "variant": "outlined",
                     "required": false,
                     "multiline": true,
@@ -364,10 +364,10 @@
                     "fullWidth": true,
                     "name": "hridFORM2",
                     "id": "hridFORM2",
-                    "helperText": "This is unique ID for each landscape element",
-                    "variant": "outlined",
+                    "helperText": "This is unique ID for each landscape element composed from an auto-incrementer and the element type.",
+                    "variant": "filled",
                     "required": true,
-                    "template": "Element: {{fieldselect10newfieldc18d25ed}} {{newfieldb284a817}}-{{newfielde48d0b3e}}",
+                    "template": "Element: {{newfieldb284a817}}-{{newfielde48d0b3e}}",
                     "InputProps": {
                         "type": "text",
                         "readOnly": true
@@ -443,7 +443,7 @@
                 "type-returned": "faims-core::String",
                 "component-parameters": {
                     "fullWidth": true,
-                    "helperText": "Select the type of landscape element that you see, eg bench seat, street lamp etc",
+                    "helperText": "Select the type of landscape element that you see, e.g. bench seat, street lamp etc. Fill other in annotation.",
                     "variant": "outlined",
                     "required": false,
                     "select": true,
@@ -561,7 +561,7 @@
                 "type-returned": "faims-core::String",
                 "component-parameters": {
                     "fullWidth": true,
-                    "helperText": "Enter the unique ID of the item, if known, eg Asset number",
+                    "helperText": "Enter the asset number of the item, if known. In annotation, note difficulties.",
                     "variant": "outlined",
                     "required": false,
                     "InputProps": {
@@ -569,7 +569,7 @@
                     },
                     "SelectProps": {},
                     "InputLabelProps": {
-                        "label": "Other Element ID (if known)"
+                        "label": "Asset number"
                     },
                     "FormHelperTextProps": {},
                     "id": "newfield45892ead",
@@ -585,7 +585,7 @@
                     "admin"
                 ],
                 "meta": {
-                    "annotation_label": "Element ID Note",
+                    "annotation_label": "Difficulties",
                     "annotation": true,
                     "uncertainty": {
                         "include": true,
@@ -645,7 +645,7 @@
                         "children": "Condition"
                     },
                     "FormHelperTextProps": {
-                        "children": "Select an option for the overall condition of the element"
+                        "children": "Select an option for the overall condition of the landscape element. Add notes, if needed, in annotation."
                     }
                 },
                 "validationSchema": [
@@ -672,7 +672,7 @@
                 "type-returned": "faims-core::String",
                 "component-parameters": {
                     "fullWidth": true,
-                    "helperText": "Helper Text",
+                    "helperText": "Add additional description or observations as needed.",
                     "variant": "outlined",
                     "required": false,
                     "multiline": true,
@@ -745,7 +745,7 @@
                 "type-returned": "faims-core::String",
                 "component-parameters": {
                     "fullWidth": true,
-                    "helperText": "Make a note of the nearest identifiable building",
+                    "helperText": "Make a note of the nearest identifiable building. Check uncertain in the field annotation if uncertain.",
                     "variant": "outlined",
                     "required": false,
                     "InputProps": {},
@@ -783,8 +783,8 @@
                     "fullWidth": true,
                     "name": "hridFORM1",
                     "id": "hridFORM1",
-                    "helperText": "This is a unique-ish ID for each Survey Area",
-                    "variant": "outlined",
+                    "helperText": "A read-only field composited from campus-zone and nickname to make a custom ID.",
+                    "variant": "filled",
                     "required": true,
                     "template": "Survey Area: {{newfield800c3f33}} {{newfieldefa5e828}}",
                     "InputProps": {
@@ -827,7 +827,7 @@
                 "type-returned": "faims-core::Relationship",
                 "component-parameters": {
                     "fullWidth": true,
-                    "helperText": "Add elements you find",
+                    "helperText": "Associate/record new street furniture with this survey area",
                     "variant": "outlined",
                     "required": false,
                     "related_type": "FORM2",
@@ -868,7 +868,7 @@
                 "type-returned": "faims-core::String",
                 "component-parameters": {
                     "fullWidth": true,
-                    "helperText": "Please name your survey area",
+                    "helperText": "Give a memorable name to your survey area.",
                     "variant": "outlined",
                     "required": false,
                     "InputProps": {
