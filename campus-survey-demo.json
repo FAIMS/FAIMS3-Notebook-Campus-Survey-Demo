@@ -350,7 +350,7 @@
                         "label": "uncertainty"
                     }
                 }
-            },            
+            },
             "hridFORM2": {
                 "component-namespace": "faims-custom",
                 "component-name": "TemplatedStringField",
@@ -443,9 +443,7 @@
                     "required": false,
                     "select": true,
                     "InputProps": {},
-                    "SelectProps": {
-			          "multiple": true
-			        },
+                    "SelectProps": {},
                     "ElementProps": {
                         "options": [
                             {
@@ -770,7 +768,7 @@
                         "label": "Uncertain"
                     }
                 }
-            },         
+            },
             "hridFORM1": {
                 "component-namespace": "faims-custom",
                 "component-name": "TemplatedStringField",
