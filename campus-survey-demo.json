@@ -1055,7 +1055,12 @@
                     "newfield59aeae56"
                 ],
                 "uidesign": "form",
-                "label": "Survey Details"
+                "label": "Survey Details",
+                "is_logic": {
+                    "FieldName": [
+                      "Testing the Logic","Does the logic work?"
+                    ]
+                  }
             },
             "FORM2SECTION1": {
                 "fields": [
