@@ -209,6 +209,11 @@
                         "yup.nullable"
                     ]
                 ],
+                "is_logic": {
+                    "adminTextJobID": [
+                      "1234","abcd"
+                    ]
+                  },
                 "initialValue": null,
                 "access": [
                     "admin"
