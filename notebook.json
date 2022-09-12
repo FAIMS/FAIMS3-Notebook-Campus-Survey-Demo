@@ -8,7 +8,7 @@
             }
         ],
         "_id": "local-autoincrementers",
-        "_rev": "2-f1fae4289c7abc590f461229e506f79a"
+        "_rev": "1-c285936055a5d51733c7fbea280d2df9"
     },
     {
         "is_attachment": false,
@@ -21,7 +21,7 @@
             ]
         },
         "_id": "project-metadata-access",
-        "_rev": "2-6e7bb7a5dc13dc86727df0f075e10cf6"
+        "_rev": "1-5da5eca3187e976494352d3716d626cf"
     },
     {
         "is_attachment": false,
@@ -31,11 +31,10 @@
             "team"
         ],
         "_id": "project-metadata-accesses",
-        "_rev": "2-fb717da8ae39cd1c1f2134a70181fc7b"
+        "_rev": "1-a304e3a399ae9816435ad760ee7ce8aa"
     },
     {
         "is_attachment": true,
-        "metadata": null,
         "_attachments": {
             "Attachment.pdf": {
                 "digest": "md5-c4jK8VzxtBZfhsLgo6qx/Q==",
@@ -44,19 +43,19 @@
             }
         },
         "_id": "project-metadata-attachments",
-        "_rev": "1-b1f0aa2d027cd45fe287bdf225827459"
+        "_rev": "1-0fcae89292be1b122f5eaccdccfeee6f"
     },
     {
         "is_attachment": false,
         "metadata": {},
         "_id": "project-metadata-behavious",
-        "_rev": "2-1434567f4374ea530831804945fb67df"
+        "_rev": "1-5d1111cd0340e2be86817ad4e27fecb3"
     },
     {
         "is_attachment": false,
         "metadata": "Attachment.pdf",
         "_id": "project-metadata-filenames",
-        "_rev": "2-a70afbbb99989aa20525a7e220d9de79"
+        "_rev": "1-b5c98b9b87636b5add0fe5f830b8b4be"
     },
     {
         "is_attachment": false,
@@ -77,25 +76,25 @@
             }
         },
         "_id": "project-metadata-forms",
-        "_rev": "2-618915d6a8026039b15aad425c8075b7"
+        "_rev": "1-4fb90326952d2af95c861d93a7b27a72"
     },
     {
         "is_attachment": false,
         "metadata": false,
         "_id": "project-metadata-ispublic",
-        "_rev": "2-6cf3ccfeecccddc26edca3925b3f3fb3"
+        "_rev": "1-f7dfc303e29603ed99ed65633086a360"
     },
     {
         "is_attachment": false,
         "metadata": false,
         "_id": "project-metadata-isrequest",
-        "_rev": "2-38c9a326e94a7303fde2705e4ff07204"
+        "_rev": "1-f7dfc303e29603ed99ed65633086a360"
     },
     {
         "is_attachment": false,
         "metadata": "Macquarie University",
         "_id": "project-metadata-lead_institution",
-        "_rev": "2-af32cb82b4a493d5a76e6bdf291b328a"
+        "_rev": "1-9a3095137a2bab13b620d265f3720c47"
     },
     {
         "is_attachment": false,
@@ -104,25 +103,25 @@
             "Group": "A"
         },
         "_id": "project-metadata-meta",
-        "_rev": "2-251e93c54abb9ba8f09e13ccb842996c"
+        "_rev": "1-3b3bc5828f3bfa2893dca1e09c64a389"
     },
     {
         "is_attachment": false,
         "metadata": "This is a demonstration module create for FAIMS3 focus groups held in April and May 2022.",
         "_id": "project-metadata-pre_description",
-        "_rev": "2-beb843352c67a519fb3838a8491e1b49"
+        "_rev": "1-15d78c3c706f751f1ac60ccfeee2d098"
     },
     {
         "is_attachment": false,
         "metadata": "Penny Crook",
         "_id": "project-metadata-project_lead",
-        "_rev": "2-a9739e8f68902237616575e3d05c4260"
+        "_rev": "1-9b69be7081ee6d013448133e20c26804"
     },
     {
         "is_attachment": false,
         "metadata": "",
         "_id": "project-metadata-project_status",
-        "_rev": "2-f265e5f6c58001cefd506978fc55a332"
+        "_rev": "1-b6eebe74a03c71fbe44838179402aea4"
     },
     {
         "is_attachment": false,
@@ -175,7 +174,7 @@
             "filenames": "Attachment.pdf"
         },
         "_id": "project-metadata-projectvalue",
-        "_rev": "2-5878f4e3693dc9f86bb5bb4ae0fd35e8"
+        "_rev": "1-25094cddb6fbef14c6f8098f8edada84"
     },
     {
         "is_attachment": false,
@@ -185,7 +184,7 @@
             }
         },
         "_id": "project-metadata-sections",
-        "_rev": "2-fd6c025a5085f8a67fbf9f62c741d230"
+        "_rev": "1-e4541043166990e566be37709cdcb88f"
     },
     {
         "fields": {
@@ -210,10 +209,11 @@
                     ]
                 ],
                 "is_logic": {
-                    "adminTextJobID": [
-                      "1234","abcd"
+                    "newfield800c3f33": [
+                        "Zone Alpha; ",
+                        "Zone Charlie; "
                     ]
-                  },
+                },
                 "initialValue": null,
                 "access": [
                     "admin"
@@ -257,11 +257,10 @@
                                 "value": "Zone Delta; ",
                                 "label": "Zone Delta; "
                             },
-                         	{
+                            {
                                 "value": "Zone Other; ",
                                 "label": "Zone Other; "
                             }
-                               
                         ]
                     },
                     "InputLabelProps": {
@@ -453,8 +452,7 @@
                     "required": false,
                     "select": true,
                     "InputProps": {},
-                    "SelectProps": {                    	
-                    },
+                    "SelectProps": {},
                     "ElementProps": {
                         "options": [
                             {
@@ -1062,10 +1060,11 @@
                 "uidesign": "form",
                 "label": "Survey Details",
                 "is_logic": {
-                    "FieldName": [
-                      "Testing the Logic","Does the logic work?"
+                    "newfield800c3f33": [
+                        "Zone Alpha; ",
+                        "Zone Charlie; "
                     ]
-                  }
+                }
             },
             "FORM2SECTION1": {
                 "fields": [
@@ -1112,6 +1111,6 @@
             "FORM2"
         ],
         "_id": "ui-specification",
-        "_rev": "2-03b086b824f12cceb905f678bf925397"
+        "_rev": "2-cd3f3b53322f66df7120f918df6bdefe"
     }
 ]
