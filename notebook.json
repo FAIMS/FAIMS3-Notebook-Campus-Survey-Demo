@@ -347,6 +347,12 @@
                         "yup.nullable"
                     ]
                 ],
+                "is_logic": {
+                    "newfield800c3f33": [
+                        "Zone Alpha; ",
+                        "Zone Charlie; "
+                    ]
+                },
                 "initialValue": null,
                 "access": [
                     "admin"
@@ -1058,13 +1064,7 @@
                     "newfield59aeae56"
                 ],
                 "uidesign": "form",
-                "label": "Survey Details",
-                "is_logic": {
-                    "newfield800c3f33": [
-                        "Zone Alpha; ",
-                        "Zone Charlie; "
-                    ]
-                }
+                "label": "Survey Details"
             },
             "FORM2SECTION1": {
                 "fields": [
@@ -1088,7 +1088,13 @@
                     "newfield708566a7"
                 ],
                 "uidesign": "form",
-                "label": "Journal"
+                "label": "Journal",
+                "is_logic": {
+                    "newfield800c3f33": [
+                        "Zone Beta; ",
+                        "Zone Charlie; "
+                    ]
+                }
             }
         },
         "viewsets": {
