@@ -285,7 +285,10 @@
                         "include": false,
                         "label": "uncertainty"
                     }
-                }
+                },
+                "logic_select": {
+                    "type": "field"
+                  }
             },
             "newfield8b0ba1cc": {
                 "component-namespace": "formik-material-ui",
