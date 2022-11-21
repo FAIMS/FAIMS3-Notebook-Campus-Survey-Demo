@@ -1030,7 +1030,7 @@
                     "required": false,
                     "featureType": "Polygon",
                     "zoom": "",
-                    "label": "",
+                    "label": "Draw bounding box around survey area",
                     "FormLabelProps": {
                         "children": "Survey Area Polygon"
                     }
