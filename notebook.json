@@ -1052,6 +1052,75 @@
                         "label": "uncertainty"
                     }
                 }
+            },
+            "newfieldf574953d":
+            {
+                "component-namespace": "faims-custom",
+                "component-name": "RelatedRecordSelector",
+                "type-returned": "faims-core::Relationship",
+                "component-parameters":
+                {
+                    "fullWidth": true,
+                    "helperText": "Select or Add new related survey area",
+                    "variant": "outlined",
+                    "required": false,
+                    "related_type": "FORM1",
+                    "relation_type": "faims-core::Linked",
+                    "InputProps":
+                    {
+                        "type": "text"
+                    },
+                    "multiple": true,
+                    "SelectProps":
+                    {},
+                    "InputLabelProps":
+                    {
+                        "label": "Related Survey Area"
+                    },
+                    "FormHelperTextProps":
+                    {},
+                    "id": "newfieldf574953d",
+                    "name": "newfieldf574953d",
+                    "relation_linked_vocabPair": [
+                    [
+                        "performe after",
+                        "performed before"
+                    ],
+                    [
+                        "is similiar to",
+                        "is similiar to"
+                    ],
+                    [
+                        "overlaps with",
+                        "is overlapped by"
+                    ]
+                    ],
+                    "related_type_label": "Area",
+                    "current_form": "FORM1",
+                    "current_form_label": "Area"
+                },
+                "validationSchema":
+                [
+                    [
+                        "yup.string"
+                    ]
+                ],
+                "initialValue":
+                [],
+                "access":
+                [
+                    "admin"
+                ],
+                "meta":
+                {
+                    "annotation_label": "annotation",
+                    "annotation": true,
+                    "uncertainty":
+                    {
+                        "include": false,
+                        "label": "uncertainty"
+                    }
+                }
             }
         },
         "fviews": {
@@ -1064,7 +1133,8 @@
                     "newfield5363dcf4",
                     "newfieldde848d82",
                     "newfield8b0ba1cc",
-                    "newfield59aeae56"
+                    "newfield59aeae56",
+                    "newfieldf574953d"
                 ],
                 "uidesign": "form",
                 "label": "Survey Details"
